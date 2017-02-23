@@ -1,3 +1,8 @@
+package util.constitute;
+import util.computer.Laptop;
+import util.edu.Examination;
+import people.Person;
+
 public class University{
 	private String name;
 	private String location;

@@ -1,3 +1,4 @@
+package util.edu;
 public class Examination{
 
 	private Question question[];

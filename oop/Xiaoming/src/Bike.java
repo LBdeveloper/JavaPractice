@@ -1,6 +1,11 @@
+package util.vehicle;
+import people.Person;
+import util.constitute.University;
+
 public class Bike{
 	private String color;
 	private String brand;
+
 	public Bike(){
 
 	}

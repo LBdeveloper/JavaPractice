@@ -1,3 +1,4 @@
+package util.computer;
 public class Laptop{
 	private String brand;
 	private int price;

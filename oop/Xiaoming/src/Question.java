@@ -1,3 +1,4 @@
+package util.edu;
 public class Question{
 	private int number;
 	private String type;
