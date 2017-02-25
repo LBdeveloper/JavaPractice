@@ -1,15 +1,18 @@
 package util.vehicle;
+
 import people.Person;
 import util.constitute.University;
 
-public class Bike{
-	private String color;
-	private String brand;
+public class Bike extends Vehicle {
+	private String type;
+	private int price;
 
 	public Bike(){
-
+		this.price = 500;
+		this.type = "bike";
 	}
 	public Bike(String color,String brand){
+		this();
 		this.color = color;
 		this.brand = brand;
 	}

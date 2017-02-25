@@ -1,5 +1,6 @@
 package util.constitute;
 import util.computer.Laptop;
+import util.computer.Computer;
 import util.edu.Examination;
 import people.Person;
 
@@ -16,7 +17,7 @@ public class University{
 		this.location = location;
 	}
 
-	public void test(Laptop laptop,Person person,Examination examination){
+	public void test(Computer laptop,Person person,Examination examination){
 		System.out.println(""+person+"用"+laptop+"解答"+examination);
 		examination.done();
 	}

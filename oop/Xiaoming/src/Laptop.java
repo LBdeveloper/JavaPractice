@@ -1,14 +1,12 @@
 package util.computer;
-public class Laptop{
-	private String brand;
-	private int price;
-	private String color;
-
+public class Laptop extends Computer {
+	private String type;
 	public Laptop(){
-
+		this.type = "laptop";
 	}
 
 	public Laptop(String brand,int price,String color){
+		this();
 		this.brand = brand;
 		this.price = price;
 		this.color = color;
