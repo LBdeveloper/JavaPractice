@@ -3,6 +3,7 @@ public class Son extends Father {
 	public String name = "zhangsan";
 
 	public Son() {
+		super();
 		System.out.println("子类构造函数执行");
 	}
 
