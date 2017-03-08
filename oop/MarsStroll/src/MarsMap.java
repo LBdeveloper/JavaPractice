@@ -4,11 +4,17 @@ import signal.Signal;
 
 public class MarsMap {
 
-    private final int scope = 9;
+    private final int scopeMax = 9;
+    private final int scopeMin = 1;
     private int x = 5;
     private int y = 5;
 
     private String dirdes;
+
+    public MarsMap() {
+    	x = (int)( Math.random() * 9) + 1;
+    	y = (int)( Math.random() * 9) + 1;
+    }
 
     public String getDirDes() {
     	return dirdes;
@@ -53,7 +59,7 @@ public class MarsMap {
     		dirdes = dirdes+"向右移动1步";
     	}
 
-    	if( x > 9 || x < 1 || y > 9 || y < 1 ) {
+    	if( x > scopeMax || x < scopemin || y > scopeMax || y < scopemin ) {
     		return false;
     	}
 
